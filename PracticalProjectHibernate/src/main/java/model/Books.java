@@ -1,10 +1,6 @@
 package model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(schema = "sda_system", name = "books")
@@ -16,6 +12,15 @@ public class Books {
     private String title;
     private String bookDescription;
     private String genre;
+    // foreign key of authorId in book table
+    @OneToOne
+    @JoinColumn(name = "authorsId")
+    private Author author;
+
+    // foreign key of ReviewID in book table
+    @OneToOne
+    @JoinColumn(name = " reviewId")
+    private Reviews review;
 
     public Long getBookId() {
         return bookId;
