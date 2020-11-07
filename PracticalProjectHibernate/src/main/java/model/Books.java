@@ -5,12 +5,14 @@ import javax.persistence.*;
 @Entity
 @Table(schema = "sda_system", name = "books")
 public class Books {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long bookId;
+    @Column(name = "title")
     private String title;
+    @Column(name = "description")
     private String bookDescription;
+    @Column(name = "genre")
     private String genre;
     // foreign key of authorId in book table
     @OneToOne
