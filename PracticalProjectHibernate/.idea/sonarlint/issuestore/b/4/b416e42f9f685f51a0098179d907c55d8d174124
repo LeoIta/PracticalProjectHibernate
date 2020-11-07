@@ -1,0 +1,52 @@
+
+T	java:S1062"9Replace this use of System.out or System.err by a logger.(¤¬¹X8·ºêçÙ.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(•¥×„8·½ÕçÙ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Üı‹îúÿÿÿÿ
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(êÜô¸ÿÿÿÿÿ8ôæôéÙ.
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(†™ì¡ÿÿÿÿÿ8Á¶ÂêÙ.
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(Õï° 8¤ëµëÙ.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(Õï° 8šÎ‰êÙ.
+Z	java:S106Z"9Replace this use of System.out or System.err by a logger.(†™ì¡ÿÿÿÿÿ8ºìšêÙ.
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(ÂÅœûÿÿÿÿ8ãø£êÙ.
+c
+java:S2147Ÿ"ECombine this catch with the one at line 153, which has the same body.(ï­£Ä8ÀÀíÙ.
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(‡ÒÇ§øÿÿÿÿ8ÒÌ‚ìÙ.
+Z	java:S106d"9Replace this use of System.out or System.err by a logger.(øö¬óüÿÿÿÿ8ãø£êÙ.
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(øö¬óüÿÿÿÿ8 © êÙ.
+o
+java:S1192E"RDefine a constant instead of duplicating this literal "Author not found." 3 times.(Õï° 8¤ëµëÙ.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(™¾ûşıÿÿÿÿ8³ÿÜçÙ.
+S
+java:S1128
+"1Remove this unused import 'java.awt.SystemColor'.(‚Ùûşúÿÿÿÿ8şÌïìÙ.
+T	java:S106>"9Replace this use of System.out or System.err by a logger.(¤¬¹X8¤ëµëÙ.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(åß©úüÿÿÿÿ8·½ÕçÙ.
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(şÄÇ­ıÿÿÿÿ8¤ëµëÙ.
+Z	java:S106f"9Replace this use of System.out or System.err by a logger.(†™ì¡ÿÿÿÿÿ8¶ªêÙ.
+k
+java:S1192Y"IDefine a constant instead of duplicating this literal "Result: " 3 times.(øö¬óüÿÿÿÿ8Á¶ÂêÙ.
+Z	java:S106p"9Replace this use of System.out or System.err by a logger.(øö¬óüÿÿÿÿ8Á¶ÂêÙ.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(¥²’8·½ÕçÙ.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(êÜô¸ÿÿÿÿÿ8ã›©ëÙ.
+
+java:S1192;"]Define a constant instead of duplicating this literal "Please enter the Author ID: " 3 times.(êÜô¸ÿÿÿÿÿ8¤ëµëÙ.
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(ÈãÂ˜ùÿÿÿÿ8ãø£êÙ.
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(êÜô¸ÿÿÿÿÿ8¤ëµëÙ.
+c
+java:S2147"ECombine this catch with the one at line 153, which has the same body.(à®¿­8ÀÀíÙ.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(ªœÈ‰8·½ÕçÙ.
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ç¦Îø8·½ÕçÙ.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(’ó“8·½ÕçÙ.
+c
+java:S2147›"ECombine this catch with the one at line 153, which has the same body.(‹±ÃÆ8ÿ¤ˆìÙ.
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(Õï° 8ã›©ëÙ.
+Q
+java:S1128"/Remove this unused import 'javax.swing.JFrame'.(ßŒŸûùÿÿÿÿ8°¿³íÙ.
+Z	java:S106u"9Replace this use of System.out or System.err by a logger.(ÈãÂ˜ùÿÿÿÿ8Á¶ÂêÙ.
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(©¬®ù8·½ÕçÙ.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ÛëôÇıÿÿÿÿ8·½ÕçÙ.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8·½ÕçÙ.
+R
+java:S1128"5Remove this unused import 'javax.swing.JFileChooser'.(õ‡æÂ8°¿³íÙ.
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(şÄÇ­ıÿÿÿÿ8ĞĞêçÙ.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(¬øœì8äåÍêÙ.
