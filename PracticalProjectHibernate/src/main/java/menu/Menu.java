@@ -20,13 +20,16 @@ import java.util.List;
 import java.util.Scanner;
 import model.Author;
 import repository.AuthorRepository;
+import repository.BooksRepository;
 
 public class Menu {
 
     AuthorRepository authorRepository;
+    BooksRepository booksRepository;
 
     public Menu() {
         authorRepository = new AuthorRepository();
+        booksRepository = new BooksRepository();
     }
 
     public int mainMenu(Scanner input) {
@@ -41,6 +44,7 @@ public class Menu {
         System.out.println("5: Search Author by First Name");
         System.out.println("6: List all authors");
         System.out.println("7: Authors report");
+        System.out.println("8: Search Books by Genre");
         System.out.println("100 - Quit");
 
         return input.nextInt();
@@ -178,5 +182,11 @@ public class Menu {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void searchBookByGenre(Scanner input)
+    {
+        System.out.println("Please enter the genre you are looking for: ");
+        booksRepository.searchBookByGenre(input);
     }
 }

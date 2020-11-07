@@ -34,6 +34,9 @@ public class Main {
                 case 7:
                     menuOption.printReport();
                     break;
+                case 8:
+                    menuOption.searchBookByGenre(input);
+                    break;
                 case 100:
                     DBUtil.shutdown();
                     input.close();
