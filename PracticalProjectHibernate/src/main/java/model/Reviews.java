@@ -1,11 +1,6 @@
 package model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(schema = "sda_system", name = "reviews")
@@ -21,6 +16,10 @@ public class Reviews {
 
     @Column(name = "review")
     private String review;
+
+    // Mapping reviews to book table
+    @OneToOne(mappedBy = "review")
+    private Books book;
 
     public Reviews() {
     }
